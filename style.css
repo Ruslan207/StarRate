@@ -1,0 +1,55 @@
+.maindiv
+{
+  -o-user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: -moz-none;
+  -khtml-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.disnone
+{
+  display: none;
+}
+
+.star, .starvoted, .starhover
+{
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  margin-left: -4px;
+  cursor: pointer;
+}
+
+.star
+{
+  background-image: url("http://s019.radikal.ru/i629/1302/43/d2f794f62d2f.png");
+}
+
+.starvoted
+{
+  background-image: url("http://s49.radikal.ru/i123/1302/37/53d8637e24bb.png");
+}
+
+.starhover
+{
+  background-image: url("http://s59.radikal.ru/i166/1302/f6/f7073b08534e.png");
+}
+
+#rating
+{
+  text-shadow: 2px 1px 1px black;
+  font-size: 72px;
+  color: #3399FF;
+}
+
+#votes
+{
+  margin-top: -15px;
+  text-shadow: 1px 1px 1px black;
+  font-size: 30px;
+  color: #FBAC4F;
+}
