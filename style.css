@@ -8,11 +8,6 @@
   user-select: none;
 }
 
-.disnone
-{
-  display: none;
-}
-
 .star, .starvoted, .starhover
 {
   background-size: contain;
